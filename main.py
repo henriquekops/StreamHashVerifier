@@ -2,7 +2,9 @@
 #-*- coding: utf-8 -*-
 
 # built-in dependencies
-from src.sha import sha
+from src.media import encode
 
-if __name__ == "__main__": 
-	print(sha("hello world"))
+TEST = "/Users/henriquekops/Downloads/FuncoesResumo - SHA1.mp4"
+
+if __name__ == "__main__":
+	print(encode(TEST))
