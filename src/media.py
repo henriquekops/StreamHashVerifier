@@ -8,6 +8,8 @@ from os import SEEK_END
 # project dependencies
 from src.sha import sha
 
+__author__ = "Henrique Kops"
+
 MODE = "rb"
 CHUNK = 1024
 

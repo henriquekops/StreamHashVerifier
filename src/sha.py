@@ -4,6 +4,8 @@
 # external dependencies
 from Crypto.Hash import SHA256
 
+__author__ = "Henrique Kops"
+
 
 def sha(msg:str, h:str) -> str:
 	hash = SHA256.new()
